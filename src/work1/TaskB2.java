@@ -1,5 +1,6 @@
 package work1;
 
+
 public class TaskB2 {
     private static int a = 1;
     private static int b = 3;
