@@ -1,5 +1,8 @@
 package homework2;
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
 import java.util.Scanner;
 
 public class TaskB3 {

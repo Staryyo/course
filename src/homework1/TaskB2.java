@@ -1,4 +1,4 @@
-package work1;
+package homework1;
 
 public class TaskB2 {
     private static int a = 1;
