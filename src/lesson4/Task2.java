@@ -9,19 +9,21 @@ public class Task2 {
         sumFromNullToNumberFor(a);
         sumFromNullToNumberWhile(a);
     }
-     static void sumFromNullToNumberFor(int a){
-         int sum = 0;
-        for (int i = 0; i <= a; i++) {
-        sum = sum + i;
 
-    }
+    static void sumFromNullToNumberFor(int a) {
+        int sum = 0;
+        for (int i = 0; i <= a; i++) {
+            sum = sum + i;
+
+        }
         System.out.println(sum);
     }
-    static void sumFromNullToNumberWhile(int a){
+
+    static void sumFromNullToNumberWhile(int a) {
         int sum = 0;
-        int i=0;
-        while (i<=a){
-            sum=sum+i;
+        int i = 0;
+        while (i <= a) {
+            sum = sum + i;
             i++;
         }
         System.out.println(sum);

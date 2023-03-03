@@ -7,22 +7,22 @@ public class Task3 {
         Scanner scanner = new Scanner(System.in);
         int x = scanner.nextInt();
         String c = scanner.next();
-        int d = scanner.nextInt();
-        int t = 0;
+        int y = scanner.nextInt();
+        int res = 0;
         switch (c) {
             case "-":
-                t = x - d;
+                res = x - y;
                 break;
             case "+":
-                t = x + d;
+                res = x + y;
                 break;
             case "*":
-                t = x * d;
+                res = x * y;
                 break;
             case "/":
-                t = x / d;
+                res = x / y;
                 break;
         }
-        System.out.println(t);
+        System.out.println(res);
     }
 }
