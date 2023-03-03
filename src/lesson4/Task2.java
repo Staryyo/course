@@ -6,17 +6,19 @@ public class Task2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();
-        int sum = 0;
-        summFromNullFor(a,sum);
-        summFromNullWhile(a, sum);
+        sumFromNullToNumberFor(a);
+        sumFromNullToNumberWhile(a);
     }
-     static void summFromNullFor(int a, int sum){
+     static void sumFromNullToNumberFor(int a){
+         int sum = 0;
         for (int i = 0; i <= a; i++) {
         sum = sum + i;
+
     }
         System.out.println(sum);
     }
-    static void summFromNullWhile(int a, int sum){
+    static void sumFromNullToNumberWhile(int a){
+        int sum = 0;
         int i=0;
         while (i<=a){
             sum=sum+i;
