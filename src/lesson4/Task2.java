@@ -7,16 +7,16 @@ public class Task2 {
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();
         int sum = 0;
-        summaFromNullFor(a,sum);
-        summaFromNullWhile(a, sum);
+        summFromNullFor(a,sum);
+        summFromNullWhile(a, sum);
     }
-     static void summaFromNullFor(int a, int sum){
+     static void summFromNullFor(int a, int sum){
         for (int i = 0; i <= a; i++) {
         sum = sum + i;
     }
         System.out.println(sum);
     }
-    static void summaFromNullWhile(int a, int sum){
+    static void summFromNullWhile(int a, int sum){
         int i=0;
         while (i<=a){
             sum=sum+i;
