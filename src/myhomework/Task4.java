@@ -4,7 +4,7 @@ package myhomework;
 
 import java.util.Scanner;
 
-public class task4 {
+public class Task4 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String x = scanner.nextLine();
