@@ -24,22 +24,22 @@ public class Homework {
             System.out.println(Arrays.toString(mas));
         } else if (Objects.equals(num, "большой массив")) {
             int[] mas = new int[6];
-            for (int i = 0; i < mas.length; i++) {
-                mas[0] = x;
-                mas[1] = z;
-                mas[i] = mas[3] + rnd.nextInt(10);
+            mas[0] = x;
+            mas[1] = z;
+            for (int i = 2; i < mas.length; i++) {
+                mas[i] = rnd.nextInt(25);
             }
             System.out.println(Arrays.toString(mas));
         } else if (Objects.equals(num, "меньшее")) {
-            int[] mas = new int[2];
-            mas[0] = x;
-            mas[1] = z;
-            System.out.println(mas[0]);
+            if (x < z) {
+                System.out.println(x);
+            }
+
         } else if (Objects.equals(num, "большее")) {
-            int[] mas = new int[2];
-            mas[0] = x;
-            mas[1] = z;
-            System.out.println(mas[1]);
+            if (z > x) {
+                System.out.println(z);
+            }
+
         } else {
             System.out.println("Нет логики для выполнения этой команды");
         }
