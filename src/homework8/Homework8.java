@@ -14,20 +14,27 @@ public class Homework8 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String n = scanner.nextLine();
-        int[] mas = new int[10];
+        int[] mas = new int[25];
         if (Objects.equals(n, "for")) {
             for (int i = 0; i < mas.length; i++) {
                 mas[i] = ThreadLocalRandom.current().nextInt(1, 100);
             }
-            System.out.println("For" + ":" + Arrays.toString(mas));
-        }
-        else if (Objects.equals(n, "while")) {
+            System.out.print( "for:");
+            for (int i = 0; i < mas.length; i++) {
+                System.out.print(mas[i] + " ");
+            }
+        } else if (Objects.equals(n, "while")) {
             int i = 0;
-           while (i < mas.length){
-               mas[i] = ThreadLocalRandom.current().nextInt(1, 100);
-               i++;
-           }
-            System.out.println("while" + ":" + Arrays.toString(mas));
+            int j = 0;
+            while (i < mas.length) {
+                mas[i] = ThreadLocalRandom.current().nextInt(1, 100);
+                i++;
+            }
+            System.out.print("while:");
+            while (j < mas.length){
+            System.out.print(mas[j] + " ");
+                j++;
         }
     }
+}
 }
