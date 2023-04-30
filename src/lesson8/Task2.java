@@ -1,7 +1,6 @@
 package lesson8;
 
 import java.util.Arrays;
-import java.util.Random;
 import java.util.Scanner;
 import java.util.concurrent.ThreadLocalRandom;
 //Есть массив вещественных чисел, с размерностью n (вводится с клавиатуры).
